@@ -1,3 +1,4 @@
+// Regions
 export const regions: Record<string, string> = {
   sfo1: "San Francisco",
   iad1: "Washington, D.C.",
