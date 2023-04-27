@@ -1,5 +1,9 @@
 import {geolocation} from '@vercel/edge';
 
+export const config = {
+  matcher: '/'
+};
+
 export default function middleware(request) {
   const url = new URL(request.url);
 
