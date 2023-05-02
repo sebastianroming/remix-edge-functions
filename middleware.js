@@ -9,6 +9,7 @@ export default function middleware(request) {
 
   const { country } = geolocation(request);
   console.log(`Country: ${country}`);
+  console.log("FOOBAR");
 
   url.pathname = '/404.html';
 
